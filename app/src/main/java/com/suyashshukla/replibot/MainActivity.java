@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
                     // if we get a successful status message.
                     // we are adding that message to our
                     // array list and notifying our adapter
-                    // that data has been changed.
+                    // that data has been changed
                     chatMsgModalArrayList.add(new ChatMsgModal(smartReplySuggestionResult.getSuggestions().get(0).getText(), 1));
                     adapter.notifyDataSetChanged();
                 }
